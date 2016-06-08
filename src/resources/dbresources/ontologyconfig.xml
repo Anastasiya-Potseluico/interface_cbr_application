@@ -1,0 +1,48 @@
+ <OntologyConfiguration>
+        <MainOntology>
+            <URL></URL>
+            <LocalCopy>/resources/ontology/test.owl</LocalCopy>
+        </MainOntology>   
+        
+        <!-- There are not subontologies -->
+        
+        <CaseMainConcept>WHEEL_CASE</CaseMainConcept>
+        
+        <DescriptionClassName>coursework.InterfaceDescription</DescriptionClassName>
+        <DescriptionMappings>
+                <Map>
+                        <Property>HAS-CARCASSESTYPE</Property>
+                        <Concept>CARCASSESTYPE</Concept>
+                        <Attribute>CARCASSESTYPE</Attribute>
+                </Map>
+                <Map>
+                        <Property>HAS-MARK</Property>
+                        <Concept>MARK</Concept>
+                        <Attribute>MARK</Attribute>
+                </Map>
+                <Map>
+                        <Property>HAS-TIRESTYPE</Property>
+                        <Concept>TIRESTYPE</Concept>
+                        <Attribute>TIRESTYPE</Attribute>
+                </Map>
+                <Map>
+                        <Property>HAS-TRACK</Property>
+                        <Concept>TRACK</Concept>
+                        <Attribute>TRACK</Attribute>
+                </Map>
+                <Map>
+                        <Property>HAS-WEATHER</Property>
+                        <Concept>WEATHER</Concept>
+                        <Attribute>WEATHER</Attribute>
+                </Map>
+        </DescriptionMappings>
+        
+        <SolutionClassName>coursework.InterfaceSolution</SolutionClassName>
+        <SolutionMappings>
+                <Map>
+                        <Property>HAS-RESULT</Property>
+                        <Concept>RESULT</Concept>
+                        <Attribute>RESULT</Attribute>
+                </Map>
+        </SolutionMappings>
+ </OntologyConfiguration>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22" uri="build/classes/resources/ontology/test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/2/device" uri="build/classes/resources/ontology/Device.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/2/disease" uri="build/classes/resources/ontology/Disease.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/2/interface" uri="build/classes/resources/ontology/Interface.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/2/interface_task" uri="build/classes/resources/ontology/InterfaceTask.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/2/solution" uri="build/classes/resources/ontology/Solution.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/2/task_problem" uri="build/classes/resources/ontology/Problems.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/2/untitled-ontology-4" uri="build/classes/resources/ontology/UserProfile.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/3/physical_problem" uri="build/classes/resources/ontology/PhysicalProblem.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/3/untitled-ontology-30" uri="build/classes/resources/dbresources/repository.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70" uri="CourseOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22" uri="src/resources/ontology/test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/2/device" uri="src/resources/ontology/Device.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/2/disease" uri="src/resources/ontology/Disease.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/2/interface" uri="src/resources/ontology/Interface.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/2/interface_task" uri="src/resources/ontology/InterfaceTask.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/2/solution" uri="src/resources/ontology/Solution.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/2/task_problem" uri="src/resources/ontology/Problems.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/2/untitled-ontology-4" uri="src/resources/ontology/UserProfile.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/3/physical_problem" uri="src/resources/ontology/PhysicalProblem.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/3/untitled-ontology-30" uri="build/classes/resources/ontology/repository.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/3/untitled-ontology-30" uri="src/resources/ontology/repository.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1465038772450" name="shadowed:http://www.semanticweb.org/анастасия/ontologies/2016/3/untitled-ontology-30" uri="src/resources/dbresources/repository.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false">
+<class name="coursework.InterfaceDescription" table="interface">
+	<id name="caseId" column="caseId">
+	  <generator class="native"/>
+	</id>
+	<property name="carcassesType" column="carcassesType" type="string"/>
+	<property name="mark" column="mark" type="string"/>
+	<property name="TiresType" column="TiresType" type="string"/>
+	<property name="track" column="track" type="string"/>
+	<property name="weather" column="weather" type="string"/>
+</class>
+</hibernate-mapping>

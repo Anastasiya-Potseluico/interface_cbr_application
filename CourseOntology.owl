@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70">
+    <Prefix name="" IRI="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDiseaseRangeCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#70"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#50"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasResult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Autism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vision_Impairment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Input_From_Touch_Screen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Params"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserSpecialExtraDevice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Output_From_Audio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Michael_Merthon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InputDataComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CBR_DESCRIPTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Output_From_Special_Extra_Device"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Input_From_Video"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDisease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alex_Smith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Input_From_Picture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#George_Black"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterfaceComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutputDataComponent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maria_Debthon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sue_Northon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simon_Remonthon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserSpecialExtraDeviceCase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpecialExtraDevise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#25"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mike_Chesterton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LACS_Syndrome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Output_From_Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDiseaseRange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserAgeCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bryan_O_Nill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TremorKeyboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CBR_CASE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colorblindness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Result"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Input_From_Voice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Input_From_Special_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDiseaseCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anna_Swerton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cerebral_Palsy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samantha_Brown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Output_From_Video"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Output_From_Picture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TrackBall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDisease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deafness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CBR_INDEX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ScreenReader"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResultCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#35"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#ResultCase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasResult"/>
+            <Class IRI="#Result"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserAgeCase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#age"/>
+            <Class IRI="#UserAge"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserDiseaseCase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDisease"/>
+            <Class IRI="#UserDisease"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserDiseaseRangeCase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDiseaseRange"/>
+            <Class IRI="#UserDiseaseRange"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UserSpecialExtraDeviceCase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpecialExtraDevise"/>
+            <Class IRI="#UserSpecialExtraDevice"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Cases"/>
+        <Class IRI="#CBR_CASE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cases"/>
+        <Class IRI="#CBR_DESCRIPTION"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InputDataComponent"/>
+        <Class IRI="#InterfaceComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterfaceComponent"/>
+        <Class IRI="#Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutputDataComponent"/>
+        <Class IRI="#InterfaceComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Params"/>
+        <Class IRI="#CBR_INDEX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Result"/>
+        <Class IRI="#CBR_INDEX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResultCase"/>
+        <Class IRI="#Cases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserAge"/>
+        <Class IRI="#UserData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserAgeCase"/>
+        <Class IRI="#ResultCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserData"/>
+        <Class IRI="#Params"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDisease"/>
+        <Class IRI="#UserData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDiseaseCase"/>
+        <Class IRI="#ResultCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDiseaseRange"/>
+        <Class IRI="#UserData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDiseaseRangeCase"/>
+        <Class IRI="#ResultCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserSpecialExtraDevice"/>
+        <Class IRI="#UserData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserSpecialExtraDeviceCase"/>
+        <Class IRI="#ResultCase"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Alex_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Anna_Swerton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDisease"/>
+        <NamedIndividual IRI="#Autism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Bryan_O_Nill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDisease"/>
+        <NamedIndividual IRI="#Cerebral_Palsy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDisease"/>
+        <NamedIndividual IRI="#Colorblindness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDisease"/>
+        <NamedIndividual IRI="#Deafness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#George_Black"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDiseaseRange"/>
+        <NamedIndividual IRI="#High"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InputDataComponent"/>
+        <NamedIndividual IRI="#Input_From_Picture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InputDataComponent"/>
+        <NamedIndividual IRI="#Input_From_Special_Device"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InputDataComponent"/>
+        <NamedIndividual IRI="#Input_From_Touch_Screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InputDataComponent"/>
+        <NamedIndividual IRI="#Input_From_Video"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InputDataComponent"/>
+        <NamedIndividual IRI="#Input_From_Voice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDisease"/>
+        <NamedIndividual IRI="#LACS_Syndrome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDiseaseRange"/>
+        <NamedIndividual IRI="#Low"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Maria_Debthon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDiseaseRange"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Michael_Merthon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Mike_Chesterton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OutputDataComponent"/>
+        <NamedIndividual IRI="#Output_From_Audio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OutputDataComponent"/>
+        <NamedIndividual IRI="#Output_From_Picture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OutputDataComponent"/>
+        <NamedIndividual IRI="#Output_From_Special_Extra_Device"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OutputDataComponent"/>
+        <NamedIndividual IRI="#Output_From_Text"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OutputDataComponent"/>
+        <NamedIndividual IRI="#Output_From_Video"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Samantha_Brown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserSpecialExtraDevice"/>
+        <NamedIndividual IRI="#ScreenReader"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Simon_Remonthon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cases"/>
+        <NamedIndividual IRI="#Sue_Northon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserSpecialExtraDevice"/>
+        <NamedIndividual IRI="#TrackBall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserSpecialExtraDevice"/>
+        <NamedIndividual IRI="#TremorKeyboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserDisease"/>
+        <NamedIndividual IRI="#Vision_Impairment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserAge"/>
+        <NamedIndividual IRI="#70"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Alex_Smith"/>
+        <NamedIndividual IRI="#20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Alex_Smith"/>
+        <NamedIndividual IRI="#LACS_Syndrome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Alex_Smith"/>
+        <NamedIndividual IRI="#Low"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpecialExtraDevise"/>
+        <NamedIndividual IRI="#Alex_Smith"/>
+        <NamedIndividual IRI="#TrackBall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Anna_Swerton"/>
+        <NamedIndividual IRI="#15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Anna_Swerton"/>
+        <NamedIndividual IRI="#Cerebral_Palsy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Anna_Swerton"/>
+        <NamedIndividual IRI="#High"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpecialExtraDevise"/>
+        <NamedIndividual IRI="#Anna_Swerton"/>
+        <NamedIndividual IRI="#TremorKeyboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Bryan_O_Nill"/>
+        <NamedIndividual IRI="#50"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Bryan_O_Nill"/>
+        <NamedIndividual IRI="#Colorblindness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Bryan_O_Nill"/>
+        <NamedIndividual IRI="#High"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpecialExtraDevise"/>
+        <NamedIndividual IRI="#Bryan_O_Nill"/>
+        <NamedIndividual IRI="#ScreenReader"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Deafness"/>
+        <NamedIndividual IRI="#High"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#George_Black"/>
+        <NamedIndividual IRI="#60"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#George_Black"/>
+        <NamedIndividual IRI="#Deafness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#George_Black"/>
+        <NamedIndividual IRI="#High"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Maria_Debthon"/>
+        <NamedIndividual IRI="#30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Maria_Debthon"/>
+        <NamedIndividual IRI="#Cerebral_Palsy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Maria_Debthon"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpecialExtraDevise"/>
+        <NamedIndividual IRI="#Maria_Debthon"/>
+        <NamedIndividual IRI="#TrackBall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Michael_Merthon"/>
+        <NamedIndividual IRI="#50"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Michael_Merthon"/>
+        <NamedIndividual IRI="#Autism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Michael_Merthon"/>
+        <NamedIndividual IRI="#Colorblindness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Michael_Merthon"/>
+        <NamedIndividual IRI="#Low"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Mike_Chesterton"/>
+        <NamedIndividual IRI="#25"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Mike_Chesterton"/>
+        <NamedIndividual IRI="#Autism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Mike_Chesterton"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Samantha_Brown"/>
+        <NamedIndividual IRI="#35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Samantha_Brown"/>
+        <NamedIndividual IRI="#Vision_Impairment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Samantha_Brown"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSpecialExtraDevise"/>
+        <NamedIndividual IRI="#Samantha_Brown"/>
+        <NamedIndividual IRI="#ScreenReader"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Simon_Remonthon"/>
+        <NamedIndividual IRI="#10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Simon_Remonthon"/>
+        <NamedIndividual IRI="#Vision_Impairment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Simon_Remonthon"/>
+        <NamedIndividual IRI="#Low"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#age"/>
+        <NamedIndividual IRI="#Sue_Northon"/>
+        <NamedIndividual IRI="#35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Sue_Northon"/>
+        <NamedIndividual IRI="#Deafness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiseaseRange"/>
+        <NamedIndividual IRI="#Sue_Northon"/>
+        <NamedIndividual IRI="#High"/>
+    </ObjectPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+

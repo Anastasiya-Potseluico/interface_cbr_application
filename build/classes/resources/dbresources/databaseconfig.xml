@@ -1,0 +1,8 @@
+<DataBaseConfiguration>
+	<HibernateConfigFile>src/resources/dbresources/hibernate.cfg.xml</HibernateConfigFile>
+	<DescriptionMappingFile>src/resources/dbresources/InterfaceDescription.hbm.xml</DescriptionMappingFile>
+	<DescriptionClassName>coursework.InterfaceDescription</DescriptionClassName>
+	<SolutionMappingFile>src/resources/dbresources/InterfaceSolution.hbm.xml</SolutionMappingFile>
+	<SolutionClassName>coursework.InterfaceSolution</SolutionClassName>
+	
+</DataBaseConfiguration>
