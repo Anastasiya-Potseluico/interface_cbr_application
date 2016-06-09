@@ -12,14 +12,14 @@ import jcolibri.datatypes.Instance;
  * @author Анастасия
  */
 public class InterfaceDescription implements jcolibri.cbrcore.CaseComponent {
-    public Instance USER_VIDEO_CAMERA;
+    public Instance USER_AGE;
     public Instance USER_AUDIO_COMPONENT;
+    public Instance USER_DISEASE;
+    public Instance USER_DISEASE_RANGE;
+    public Instance USER_MAIN_DEVICE;
     public Instance USER_MICROPHONE;
     public Instance USER_SPECIAL_DEVICE;
-    public Instance USER_MAIN_DEVICE;
-    public Instance USER_DISEASE_RANGE;
-    public Instance USER_DISEASE;
-    public Instance USER_AGE;
+    public Instance USER_VIDEO_CAMERA;
     public Instance CASEID;
     
     @Override
