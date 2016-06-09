@@ -448,6 +448,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Medium"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Tablet"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Touch_Screen"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Special_Device"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Videocamera"/>
     </owl:NamedIndividual>
@@ -464,6 +465,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Notebook"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Picture"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Special_Device"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Videocamera"/>
     </owl:NamedIndividual>
@@ -488,6 +490,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Medium"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Smartphone"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Video"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Special_Device"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Videocamera"/>
     </owl:NamedIndividual>
@@ -528,6 +531,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Low"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Smartphone"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Touch_Screen"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Special_Device"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Videocamera"/>
     </owl:NamedIndividual>
@@ -568,31 +572,41 @@
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Picture -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Picture"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Picture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Special_Device -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Special_Device"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Special_Device">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Touch_Screen -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Touch_Screen"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Touch_Screen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Video -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Video"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Video">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Voice -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Voice"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Voice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
@@ -600,14 +614,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#LACS_Syndrome">
         <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Lose -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Lose">
-        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
     </owl:NamedIndividual>
     
 
@@ -630,6 +636,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Medium"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Notebook"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Voice"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#ScreenReader"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Videocamera"/>
     </owl:NamedIndividual>
@@ -654,6 +661,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Medium"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Tablet"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Picture"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#TremorKeyboard"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Videocamera"/>
     </owl:NamedIndividual>
@@ -670,6 +678,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Smartphone"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Special_Device"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#TrackBall"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Videocamera"/>
     </owl:NamedIndividual>
@@ -718,31 +727,41 @@
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Audio -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Audio"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Audio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Picture -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Picture"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Picture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Special_Extra_Device -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Special_Extra_Device"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Special_Extra_Device">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Text -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Text"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Text">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Video -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Video"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Video">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:NamedIndividual>
     
 
 
@@ -756,6 +775,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Notebook"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Special_Device"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#TremorKeyboard"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Videocamera"/>
     </owl:NamedIndividual>
@@ -780,6 +800,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Smartphone"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Touch_Screen"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Special_Device"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Videocamera"/>
     </owl:NamedIndividual>
@@ -804,6 +825,7 @@
         <untitled-ontology-70:HAS-DISEASE-RANGE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High"/>
         <untitled-ontology-70:HAS-MAIN-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Tablet"/>
         <untitled-ontology-70:HAS-MICROPHONE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Microphone"/>
+        <untitled-ontology-70:HAS-RESULT rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Picture"/>
         <untitled-ontology-70:HAS-SPECIAL-DEVICE rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Special_Device"/>
         <untitled-ontology-70:HAS-VIDEO-CAMERA rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Videocamera"/>
     </owl:NamedIndividual>
@@ -838,14 +860,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Vision_Impairment">
         <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Win -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Win">
-        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
     </owl:NamedIndividual>
     
 
