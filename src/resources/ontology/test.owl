@@ -578,6 +578,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Audio_Component -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Audio_Component">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Microphone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Has_Microphone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High">
@@ -674,6 +690,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Audio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Audio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Microphone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#None_Microphone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Notebook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Notebook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Audio -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Audio">
@@ -738,10 +778,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Smartphone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Smartphone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Sue_Northon -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Sue_Northon">
         <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Tablet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Tablet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE"/>
     </owl:NamedIndividual>
     
 
