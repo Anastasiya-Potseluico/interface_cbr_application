@@ -6,34 +6,49 @@
         
         <!-- There are not subontologies -->
         
-        <CaseMainConcept>WHEEL_CASE</CaseMainConcept>
+        <CaseMainConcept>USER_CASE</CaseMainConcept>
         
         <DescriptionClassName>coursework.InterfaceDescription</DescriptionClassName>
         <DescriptionMappings>
                 <Map>
-                        <Property>HAS-CARCASSESTYPE</Property>
-                        <Concept>CARCASSESTYPE</Concept>
-                        <Attribute>CARCASSESTYPE</Attribute>
+                        <Property>HAS-VIDEO-CAMERA</Property>
+                        <Concept>USER_VIDEO_CAMERA</Concept>
+                        <Attribute>USER_VIDEO_CAMERA</Attribute>
                 </Map>
                 <Map>
-                        <Property>HAS-MARK</Property>
-                        <Concept>MARK</Concept>
-                        <Attribute>MARK</Attribute>
+                        <Property>HAS-AUDIO-COMPONENT</Property>
+                        <Concept>USER_AUDIO_COMPONENT</Concept>
+                        <Attribute>USER_AUDIO_COMPONENT</Attribute>
                 </Map>
                 <Map>
-                        <Property>HAS-TIRESTYPE</Property>
-                        <Concept>TIRESTYPE</Concept>
-                        <Attribute>TIRESTYPE</Attribute>
+                        <Property>HAS-MICROPHONE</Property>
+                        <Concept>USER_MICROPHONE</Concept>
+                        <Attribute>USER_MICROPHONE</Attribute>
                 </Map>
                 <Map>
-                        <Property>HAS-TRACK</Property>
-                        <Concept>TRACK</Concept>
-                        <Attribute>TRACK</Attribute>
+                        <Property>HAS-SPECIAL-DEVICE</Property>
+                        <Concept>USER_SPECIAL_DEVICE</Concept>
+                        <Attribute>USER_SPECIAL_DEVICE</Attribute>
                 </Map>
                 <Map>
-                        <Property>HAS-WEATHER</Property>
-                        <Concept>WEATHER</Concept>
-                        <Attribute>WEATHER</Attribute>
+                        <Property>HAS-MAIN-DEVICE</Property>
+                        <Concept>USER_MAIN_DEVICE</Concept>
+                        <Attribute>USER_MAIN_DEVICE</Attribute>
+                </Map>
+                <Map>
+                        <Property>HAS-DISEASE-RANGE</Property>
+                        <Concept>USER_DISEASE_RANGE</Concept>
+                        <Attribute>USER_DISEASE_RANGE</Attribute>
+                </Map>
+                <Map>
+                        <Property>HAS-DISEASE</Property>
+                        <Concept>USER_DISEASE</Concept>
+                        <Attribute>USER_DISEASE</Attribute>
+                </Map>
+                <Map>
+                        <Property>HAS-AGE</Property>
+                        <Concept>USER_AGE</Concept>
+                        <Attribute>USER_AGE</Attribute>
                 </Map>
         </DescriptionMappings>
         
@@ -43,6 +58,16 @@
                         <Property>HAS-RESULT</Property>
                         <Concept>RESULT</Concept>
                         <Attribute>RESULT</Attribute>
+                </Map>
+				<Map>
+                        <Property>HAS-INPUT-DATA-COMPONENT</Property>
+                        <Concept>USER_INPUT_DATA_COMPONENT</Concept>
+                        <Attribute>USER_INPUT_DATA_COMPONENT</Attribute>
+                </Map>
+				<Map>
+                        <Property>HAS-OUTPUT-DATA-COMPONENT</Property>
+                        <Concept>USER_OUTPUT_DATA_COMPONENT</Concept>
+                        <Attribute>USER_OUTPUT_DATA_COMPONENT</Attribute>
                 </Map>
         </SolutionMappings>
  </OntologyConfiguration>

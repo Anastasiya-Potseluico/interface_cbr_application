@@ -1,282 +1,847 @@
-<rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#"
-    xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <owl:Ontology rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22"/>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBRCASE"/>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_TIRESTYPE_CASE">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    </rdfs:subClassOf>
-    <owl:equivalentClass>
-      <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-          <owl:Restriction>
-            <owl:someValuesFrom>
-              <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#TIRESTYPE"/>
-            </owl:someValuesFrom>
-            <owl:onProperty>
-              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-            </owl:onProperty>
-          </owl:Restriction>
-        </owl:intersectionOf>
-      </owl:Class>
-    </owl:equivalentClass>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#TIRESTYPE">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_INDEX"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_DESCRIPTION"/>
-    </rdfs:subClassOf>
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBRCASE"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_TRACK_CASE">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <owl:equivalentClass>
-      <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-          <owl:Restriction>
-            <owl:someValuesFrom>
-              <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#TRACK"/>
-            </owl:someValuesFrom>
-            <owl:onProperty>
-              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-            </owl:onProperty>
-          </owl:Restriction>
-        </owl:intersectionOf>
-      </owl:Class>
-    </owl:equivalentClass>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CARCASSESTYPE">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_INDEX"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CARCASSESTYPE_CASE">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <owl:equivalentClass>
-      <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-          <owl:Restriction>
-            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CARCASSESTYPE"/>
-            <owl:onProperty>
-              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-            </owl:onProperty>
-          </owl:Restriction>
-        </owl:intersectionOf>
-      </owl:Class>
-    </owl:equivalentClass>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_MARK_CASE">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <owl:equivalentClass>
-      <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-          <owl:Restriction>
-            <owl:someValuesFrom>
-              <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#MARK"/>
-            </owl:someValuesFrom>
-            <owl:onProperty>
-              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-            </owl:onProperty>
-          </owl:Restriction>
-        </owl:intersectionOf>
-      </owl:Class>
-    </owl:equivalentClass>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_RESULT_CASE">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <owl:equivalentClass>
-      <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-          <owl:Restriction>
-            <owl:someValuesFrom>
-              <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#RESULT"/>
-            </owl:someValuesFrom>
-            <owl:onProperty>
-              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-            </owl:onProperty>
-          </owl:Restriction>
-        </owl:intersectionOf>
-      </owl:Class>
-    </owl:equivalentClass>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WEATHER">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_INDEX"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_WEATHER_CASE">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <owl:equivalentClass>
-      <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-          <owl:Restriction>
-            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WEATHER"/>
-            <owl:onProperty>
-              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-            </owl:onProperty>
-          </owl:Restriction>
-        </owl:intersectionOf>
-      </owl:Class>
-    </owl:equivalentClass>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#MARK">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_INDEX"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#TRACK">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_INDEX"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#RESULT">
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_INDEX"/>
-  </owl:Class>
-  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-WEATHER">
-    <rdfs:range rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WEATHER"/>
-    <rdfs:domain rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE">
-    <rdfs:range rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_INDEX"/>
-    <rdfs:domain>
-      <owl:Class>
-        <owl:unionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_DESCRIPTION"/>
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CARCASSESTYPE_CASE"/>
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_MARK_CASE"/>
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_RESULT_CASE"/>
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_TIRESTYPE_CASE"/>
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_TRACK_CASE"/>
-          <owl:Class rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_WEATHER_CASE"/>
-        </owl:unionOf>
-      </owl:Class>
-    </rdfs:domain>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-DESCRIPTION">
-    <rdfs:range rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBR_DESCRIPTION"/>
-    <rdfs:domain rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CBRCASE"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-TIRESTYPE">
-    <rdfs:range rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#TIRESTYPE"/>
-    <rdfs:domain rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-CARCASSESTYPE">
-    <rdfs:range rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CARCASSESTYPE"/>
-    <rdfs:domain rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-MARK">
-    <rdfs:range rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#MARK"/>
-    <rdfs:domain rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-RESULT">
-    <rdfs:range rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#RESULT"/>
-    <rdfs:domain rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-TRACK">
-    <rdfs:range rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#TRACK"/>
-    <rdfs:domain rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WHEEL_CASE"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#HAS-ATTRIBUTE"/>
-  </owl:ObjectProperty>
-  <TIRESTYPE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#PSESLICK">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </TIRESTYPE>
-  <WHEEL_CASE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#case2003">
-    <HAS-WEATHER>
-      <WEATHER rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#DRY">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </WEATHER>
-    </HAS-WEATHER>
-    <HAS-TRACK>
-      <TRACK rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#AUTODROME">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </TRACK>
-    </HAS-TRACK>
-    <HAS-TIRESTYPE>
-      <TIRESTYPE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#SLICK">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </TIRESTYPE>
-    </HAS-TIRESTYPE>
-    <HAS-RESULT>
-      <RESULT rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WIN">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </RESULT>
-    </HAS-RESULT>
-    <HAS-MARK>
-      <MARK rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#VAZ">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </MARK>
-    </HAS-MARK>
-    <HAS-CARCASSESTYPE>
-      <CARCASSESTYPE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#RADIAL">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </CARCASSESTYPE>
-    </HAS-CARCASSESTYPE>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </WHEEL_CASE>
-  <TIRESTYPE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#RAINY">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </TIRESTYPE>
-  <WEATHER rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WET">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </WEATHER>
-  <WHEEL_CASE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#Racing6">
-    <HAS-RESULT rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WIN"/>
-    <HAS-WEATHER rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#DRY"/>
-    <HAS-TRACK rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#AUTODROME"/>
-    <HAS-TIRESTYPE rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#SLICK"/>
-    <HAS-MARK rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#VAZ"/>
-    <HAS-CARCASSESTYPE rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#RADIAL"/>
-  </WHEEL_CASE>
-  <RESULT rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#LOSE">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </RESULT>
-  <WHEEL_CASE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#case2005">
-    <HAS-WEATHER rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WET"/>
-    <HAS-TRACK>
-      <TRACK rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#CITY">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </TRACK>
-    </HAS-TRACK>
-    <HAS-TIRESTYPE rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#PSESLICK"/>
-    <HAS-RESULT rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WIN"/>
-    <HAS-MARK>
-      <MARK rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#KAMA">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </MARK>
-    </HAS-MARK>
-    <HAS-CARCASSESTYPE>
-      <CARCASSESTYPE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#DIAGONAL">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </CARCASSESTYPE>
-    </HAS-CARCASSESTYPE>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </WHEEL_CASE>
-  <WHEEL_CASE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#Racing4">
-    <HAS-RESULT rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WIN"/>
-    <HAS-WEATHER rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#WET"/>
-    <HAS-TRACK rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#AUTODROME"/>
-    <HAS-TIRESTYPE rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#PSESLICK"/>
-    <HAS-MARK rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#VAZ"/>
-    <HAS-CARCASSESTYPE rdf:resource="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#DIAGONAL"/>
-  </WHEEL_CASE>
-  <WHEEL_CASE rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#Racing9"/>
-  <MARK rdf:about="http://www.semanticweb.org/vadim/ontologies/2016/5/untitled-ontology-22#PIRELLI">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </MARK>
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70"
+     xml:base="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-AGE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-AGE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_DESCRIPTION"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE_CASE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_VIDEO_CAMERA_CASE"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-AUDIO-COMPONENT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-AUDIO-COMPONENT">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-DESCRIPTION -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-DESCRIPTION">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_DESCRIPTION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-DISEASE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-DISEASE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-DISEASE-RANGE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-DISEASE-RANGE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-INPUT-DATA-COMPONENT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-INPUT-DATA-COMPONENT">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-RESULT"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-MAIN-DEVICE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-MAIN-DEVICE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-MICROPHONE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-MICROPHONE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-OUTPUT-DATA-COMPONENT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-OUTPUT-DATA-COMPONENT">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-RESULT"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-RESULT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-RESULT">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-SPECIAL-DEVICE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-SPECIAL-DEVICE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-VIDEO-CAMERA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-VIDEO-CAMERA">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_VIDEO_CAMERA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_CASE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_DESCRIPTION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_DESCRIPTION"/>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AUDIO_COMPONENT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_CASE"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_DESCRIPTION"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MAIN_DEVICE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_MICROPHONE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_RESULT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_VIDEO_CAMERA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_VIDEO_CAMERA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#CBR_INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_VIDEO_CAMERA_CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_VIDEO_CAMERA_CASE">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_VIDEO_CAMERA_CASE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#HAS-ATTRIBUTE"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_VIDEO_CAMERA"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Alex_Smith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Alex_Smith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Anna_Swerton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Anna_Swerton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Autism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Autism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Bryan_O_Nill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Bryan_O_Nill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Cerebral_Palsy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Cerebral_Palsy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Colorblindness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Colorblindness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Deafness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Deafness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#George_Black -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#George_Black">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Picture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Picture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Special_Device -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Special_Device">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Touch_Screen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Touch_Screen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Video -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Video">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Voice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Input_From_Voice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_INPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#LACS_Syndrome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#LACS_Syndrome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Maria_Debthon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Maria_Debthon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Medium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE_RANGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Michael_Merthon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Michael_Merthon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Mike_Chesterton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Mike_Chesterton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Audio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Audio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Picture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Picture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Special_Extra_Device -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Special_Extra_Device">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Text -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Text">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Video -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Output_From_Video">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_OUTPUT_DATA_COMPONENT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Samantha_Brown -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Samantha_Brown">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#ScreenReader -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#ScreenReader">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Simon_Remonthon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Simon_Remonthon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Sue_Northon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Sue_Northon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_CASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#TrackBall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#TrackBall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#TremorKeyboard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#TremorKeyboard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_SPECIAL_DEVICE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Vision_Impairment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#Vision_Impairment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_DISEASE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#50">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#60 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#60">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#70 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#70">
+        <rdf:type rdf:resource="http://www.semanticweb.org/анастасия/ontologies/2016/5/untitled-ontology-70#USER_AGE"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
