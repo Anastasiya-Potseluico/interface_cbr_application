@@ -171,11 +171,11 @@ public class QueryDialog extends JDialog {
 	public CBRQuery getQuery()
 	{
             InterfaceDescription desc = new InterfaceDescription();
-            desc.setCARCASSESTYPE(Instance.createInstance(this.carcassesType.getSelectedItem().toString(), "CARCASSESTYPE"));
-            desc.setMARK(Instance.createInstance(this.mark.getSelectedItem().toString(), "MARK"));
-            desc.setTIRESTYPE(Instance.createInstance(this.TiresType.getSelectedItem().toString(), "TIRESTYPE"));
-            desc.setTRACK(Instance.createInstance(this.track.getSelectedItem().toString(), "TRACK"));
-            desc.setWEATHER(Instance.createInstance(this.weather.getSelectedItem().toString(), "WEATHER"));
+//            desc.setCARCASSESTYPE(Instance.createInstance(this.carcassesType.getSelectedItem().toString(), "CARCASSESTYPE"));
+//            desc.setMARK(Instance.createInstance(this.mark.getSelectedItem().toString(), "MARK"));
+//            desc.setTIRESTYPE(Instance.createInstance(this.TiresType.getSelectedItem().toString(), "TIRESTYPE"));
+//            desc.setTRACK(Instance.createInstance(this.track.getSelectedItem().toString(), "TRACK"));
+//            desc.setWEATHER(Instance.createInstance(this.weather.getSelectedItem().toString(), "WEATHER"));
 
 		
 		CBRQuery query = new CBRQuery();

@@ -282,11 +282,11 @@ public class RetainDialog extends JDialog {
 		
 		InterfaceDescription desc = (InterfaceDescription) _case.getDescription();
                 
-		this.carcassesType.setText(desc.getCARCASSESTYPE().toString());
-		this.mark.setText(desc.getMARK().toString());
-		this.TiresType.setText(desc.getTIRESTYPE().toString());
-		this.track.setText(desc.getTRACK().toString());
-		this.weather.setText(desc.getWEATHER().toString());
+//		this.carcassesType.setText(desc.getCARCASSESTYPE().toString());
+//		this.mark.setText(desc.getMARK().toString());
+//		this.TiresType.setText(desc.getTIRESTYPE().toString());
+//		this.track.setText(desc.getTRACK().toString());
+//		this.weather.setText(desc.getWEATHER().toString());
 		
 		InterfaceSolution sol = (InterfaceSolution) _case.getSolution();
 		this.Result.setText(sol.getRESULT().toString());
