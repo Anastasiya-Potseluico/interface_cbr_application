@@ -14,6 +14,10 @@ import jcolibri.datatypes.Instance;
  */
 public class InterfaceSolution implements jcolibri.cbrcore.CaseComponent {
     public Instance RESULT;
+
+    public Instance[] USER_INPUT_DATA_COMPONENT;
+    public Instance[] USER_OUTPUT_DATA_COMPONENT;
+    
     public Instance id;
     @Override
     public Attribute getIdAttribute() {
@@ -37,4 +41,19 @@ public class InterfaceSolution implements jcolibri.cbrcore.CaseComponent {
         return "("+ id + ";"+ RESULT + ")";
     }
     
+    public Instance[] getUSER_INPUT_DATA_COMPONENT() {
+        return USER_INPUT_DATA_COMPONENT;//throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setUSER_INPUT_DATA_COMPONENT(Instance[] inputData) {
+        USER_INPUT_DATA_COMPONENT = inputData;//throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    public Instance[] getUSER_OUTPUT_DATA_COMPONENT() {
+        return USER_OUTPUT_DATA_COMPONENT;//throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setUSER_OUTPUT_DATA_COMPONENT(Instance[] outputData) {
+        USER_OUTPUT_DATA_COMPONENT = outputData;//throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
